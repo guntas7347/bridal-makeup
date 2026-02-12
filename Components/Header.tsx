@@ -54,6 +54,7 @@ const Header = () => {
             {isMenuOpen && (
                 <div className="md:hidden absolute top-full left-0 w-full bg-background-light dark:bg-background-dark border-b border-primary/10 py-4 px-6 flex flex-col space-y-4 shadow-xl">
                     <Link href="/" className="hover:text-primary transition-colors font-semibold uppercase tracking-widest" onClick={() => setIsMenuOpen(false)}>Home</Link>
+                    <Link href="/portfolio" className="hover:text-primary transition-colors font-semibold uppercase tracking-widest" onClick={() => setIsMenuOpen(false)}>Gallery</Link>
                     <Link href="/packages" className="hover:text-primary transition-colors font-semibold uppercase tracking-widest" onClick={() => setIsMenuOpen(false)}>Packages</Link>
                     <Link href="/about" className="hover:text-primary transition-colors font-semibold uppercase tracking-widest" onClick={() => setIsMenuOpen(false)}>About</Link>
                     <Link href="/contact" className="hover:text-primary transition-colors font-semibold uppercase tracking-widest" onClick={() => setIsMenuOpen(false)}>Contact</Link>
